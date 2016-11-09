@@ -1,0 +1,7 @@
+# bootstrap-semantic
+* Bootstrap and Semantic-UI CSS
+
+** Goals:
+- Learn bootstrap-3 CSS style, trying to get familiar with such framework
+- Find corresponding features in Semantic-UI
+- Use Semantic-UI to implement differnt parts of themes on bootswatch.com
