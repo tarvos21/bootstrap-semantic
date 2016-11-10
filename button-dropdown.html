@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button dropdown</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+      $(".dropdown-toggle").dropdown();
+    });
+    </script>
+  </head>
+  <body>
+    <div class="btn-group">
+      <button type="button" class="btn btn-success dropdown-toggle"
+                            data-toggle="dropdown">
+        Success <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="#">Action</a></li>
+        <li><a href="#">Second Action</a></li>
+        <li><a href="#">Third Action</a></li>
+        <li class="divider"></li>
+        <li><a href="#">Separated Action</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
